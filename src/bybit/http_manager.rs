@@ -75,7 +75,7 @@ impl HttpManager {
             api_key,
             api_secret,
             base_url: url,
-            recv_window: 5000,
+            recv_window: 50000,
             ignore_codes: vec![],
             max_retries: 10,
             client,
